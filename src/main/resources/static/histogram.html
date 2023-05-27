@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Histogram Generator</title>
+    <link rel="stylesheet" href="./histogram.css">
+    <script src="./calculate.js"></script>
+</head>
+
+<body>
+    <main>
+        <section class="container">
+            <section class="leftColumn">
+                <header>
+                    Lower Bounds
+                </header>
+
+                <ul class="Grades">
+                    <li>
+                        <span class="Grade">Max</span>
+                        <input type="text" class="GradeLimit" value="100.00">
+                    </li>
+
+                    <li>
+                        <span class="Grade">A+</span>
+                        <input type="text" class="GradeLimit" value="95.00">
+                    </li>
+
+                    <li>
+                        <span class="Grade">A-</span>
+                        <input type="text" class="GradeLimit" value="85.00">
+                    </li>
+
+                    <li>
+                        <span class="Grade">B+</span>
+                        <input type="text" class="GradeLimit" value="80.00">
+                    </li>
+
+                    <li>
+                        <span class="Grade">B</span>
+                        <input type="text" class="GradeLimit" value="75.00">
+                    </li>
+
+                    <li>
+                        <span class="Grade">B-</span>
+                        <input type="text" class="GradeLimit" value="70.00">
+                    </li>
+
+                    <li>
+                        <span class="Grade">C+</span>
+                        <input type="text" class="GradeLimit" value="65.00">
+                    </li>
+
+                    <li>
+                        <span class="Grade">C</span>
+                        <input type="text" class="GradeLimit" value="60.00">
+                    </li>
+
+                    <li>
+                        <span class="Grade">C-</span>
+                        <input type="text" class="GradeLimit" value="55.00">
+                    </li>
+
+                    <li>
+                        <span class="Grade">D</span>
+                        <input type="text" class="GradeLimit" value="50.00">
+                    </li>
+
+                    <li>
+                        <span class="Grade">F</span>
+                        <input type="text" class="GradeLimit" value="0.00">
+                    </li>
+                </ul>
+
+            </section>
+
+            <section class="rightColumn">
+                <section class="upperColumn">
+                    <header> Histogram </header>
+                    <ul class="HistogramGrades">
+                        <li>
+                            <span class="Grade">A+</span>
+                        </li>
+
+                        <li>
+                            <span class="Grade">A-</span>
+
+                        </li>
+
+                        <li>
+                            <span class="Grade">B+</span>
+
+                        </li>
+
+                        <li>
+                            <span class="Grade">B</span>
+
+                        </li>
+
+                        <li>
+                            <span class="Grade">B-</span>
+                        </li>
+
+                        <li>
+                            <span class="Grade">C+</span>
+
+                        </li>
+
+                        <li>
+                            <span class="Grade">C</span>
+
+                        </li>
+
+                        <li>
+                            <span class="Grade">C-</span>
+
+                        </li>
+
+                        <li>
+                            <span class="Grade">D</span>
+
+                        </li>
+
+                        <li>
+                            <span class="Grade">F</span>
+
+                        </li>
+                    </ul>
+                </section>
+
+                <section class="lowerColumn">
+                    <form id="inputGrade"> New Grade:
+                        <input name="iGrade" id="newGrade">
+                    </form>
+                </section>
+
+            </section>
+        </section>
+
+    </main>
+</body>
+
+</html>
