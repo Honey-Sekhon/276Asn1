@@ -44,7 +44,7 @@ header {
 .Grades li {
     display: flex;
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
     align-items: center;
 }
 
@@ -66,7 +66,6 @@ header {
 }
 
 .upperColumn {
-    /* flex-grow: 1; */
     height: 55%;
     border-bottom: 20px solid #fff;
 
@@ -78,8 +77,16 @@ header {
     margin-left: 10px;
 }
 
+form {
+    padding-left: 10px;
+    padding-top: 20px;
+}
+
+#newGrade {
+    height: 30px;
+}
+
 .HistogramGrades {
-    /* flex: 1; */
     list-style-type: none;
     padding: 0;
 }
@@ -89,11 +96,18 @@ header {
     margin-bottom: 10px;
 }
 
-form {
-    padding-left: 10px;
-    padding-top: 20px;
+.GradeContainer {
+    display: flex;
+    align-items: center;
+
 }
 
-.newGrade {
-    height: 30px;
+.GradeCount {
+    margin-left: 50px;
+    margin-right: 150px;
+    width: 45px;
+}
+
+.Count {
+    font-weight: bold;
 }
