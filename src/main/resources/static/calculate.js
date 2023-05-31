@@ -110,6 +110,7 @@ function getGradeCategory(grade) {
 
 let studentInEachCategory = countStudentsByGradeRange();
 
+// referenced from chatGPT
 function updatePage(studentInEachCategory) {
     Object.keys(studentInEachCategory).forEach(grade => {
         let countElement = document.getElementById(`count${grade}`);
